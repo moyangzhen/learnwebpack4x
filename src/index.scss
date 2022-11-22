@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./glyphicons-halflings-regular.woff2') format('woff2'),
+    url('./glyphicons-halflings-regular.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+body{
+  font-family: 'MyFont';
+  background-color: green;
+  background-image: url('./test.jpeg');
+}
